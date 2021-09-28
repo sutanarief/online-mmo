@@ -16,6 +16,10 @@ const config = {
 	scene: [Preloader, Game],
 	scale: {
 		zoom: 1
+	},
+	parent: 'phaser-example',
+	dom: {
+		createContainer: true
 	}
 }
 
